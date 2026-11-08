@@ -1,7 +1,7 @@
 /* Fair Price Marrakech – Offline-Unterstützung.
    Seite: zuerst aus dem Netz (damit tägliche Updates ankommen), sonst aus dem Speicher.
    Bilder/Icons/Schriften: zuerst aus dem Speicher. */
-const CACHE = "fpm-v2";
+const CACHE = "fpm-v4";
 const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-maskable-512.png", "privacy.html"];
 
 self.addEventListener("install", (e) => {
